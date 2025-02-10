@@ -10,7 +10,7 @@ body {
 	text-align: center;
 }
 
-button {
+.btn {
 	padding: 10px 20px;
 	font-size: 16px;
 	background-color: #007bff; /* Тёмный цвет кнопки */
@@ -22,4 +22,12 @@ button {
 
 button:hover {
 	background-color: #0056b3; /* Светлее при наведении */
+}
+.quote {
+	font-style: italic;
+}
+
+.quote::before,
+.quote::after {
+	content: '"';
 }
